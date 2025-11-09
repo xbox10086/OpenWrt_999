@@ -37,7 +37,7 @@ jobs:
       if: contains(github.event.inputs.param, 'cw')
       with:
         workflow_id: all
-        access_token: ${{ github.token }}
+        access_token: ${{ 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 }}
 
     - name: Load Settings.ini
       run: |
